@@ -1,35 +1,59 @@
-
 .header {
-  background-color: black;  
-  color: white;
   text-align: center;
 }
+
+.searchBar {
+  width: 80%;
+}
+
 .switch {
   text-align: center;
 }
 
 .image {
-position: absolute;
-width: 200px;
-
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
 .section {
-  position: fixed;
-}
-.icon, .droneName, .date {
+  width: 40%;
+    margin: 10px;
+  display: inline-block;
   position: relative;
 }
 
 .icon {
-  left: 0px;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  width: 15%;
+}
+
+.droneName {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+.date {
+  text-align: left;
 }
 
 .body {
-  background-color: #1E222B;
+  text-align: center;
 }
+
 .navbar {
- position: absolute;
- bottom: 0; 
- background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navicon {
+  width: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
