@@ -1,38 +1,35 @@
-.App {
+
+.header {
+  background-color: black;  
+  color: white;
+  text-align: center;
+}
+.switch {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image {
+position: absolute;
+width: 200px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section {
+  position: fixed;
+}
+.icon, .droneName, .date {
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon {
+  left: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.body {
+  background-color: #1E222B;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+ position: absolute;
+ bottom: 0; 
+ background-color: black;
 }

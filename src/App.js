@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import drone1 from "./drone1.jpg";
+import favorite from "./favorite.svg";
+import droneIcon from "./droneIcon.svg";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className="header">
+        <header>Drones</header>
+        
+        <input type="text"></input>
+      </div>
+
+      <div className="switch">
+        <div>ALL</div>
+        <div>FAVORITE</div>
+      </div>
+
+      <div className="body">
+        <div className="section">
+        <img src={drone1} className="image"/>
+        <img src={favorite} className="icon"/>
+        <div className="droneName">レースドローン</div>
+        <div className="date">2022/02/28</div>
+        </div>
+      </div>
+
+      <div className="navbar">
+        <div><img src={droneIcon}/> </div>
+        <div><img src={droneIcon}/> </div>
+        <div><img src={droneIcon}/> </div>
+      </div>
     </div>
   );
 }
