@@ -1,13 +1,31 @@
 .header {
   text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  background-color: gray;
+  z-index: 100;
+}
+
+.menu {
+  float: left;
+  padding: 1% 5%;
+  height:40px;
 }
 
 .searchBar {
   width: 80%;
 }
 
-.switch {
+.body {
   text-align: center;
+  padding-top: 120px;
+  height: 1000px;
+}
+
+.switch > div {
+  display: inline;
+  padding: 10px;
 }
 
 .image {
@@ -18,7 +36,7 @@
 
 .section {
   width: 40%;
-    margin: 10px;
+  margin: 10px;
   display: inline-block;
   position: relative;
 }
@@ -35,21 +53,36 @@
   bottom: 15%;
   left: 10%;
 }
+
 .date {
   text-align: left;
 }
 
-.body {
-  text-align: center;
+.circle {
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:15%;
+	right:5%;
+	background-color:gray;
+	border-radius:50px;
+	text-align:center;
 }
 
+.addIcon {
+padding: 20px;
+height: 20px;
+width: 20px;
+}
+
+
 .navbar {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: gray;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 0;
 }
 
 .navicon {
